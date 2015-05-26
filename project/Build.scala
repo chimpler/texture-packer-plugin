@@ -5,7 +5,7 @@ import sbt.Keys._
 
 object TexturePackerPluginBuild extends Build {
 
-  val gdxVersion = "1.5.5"
+  val gdxVersion = "1.6.1"
 
   lazy val root = Project("root", file(".")).settings(/*WebDav.scopedSettings ++*/ Seq(
     name := "texture-packer-plugin",
